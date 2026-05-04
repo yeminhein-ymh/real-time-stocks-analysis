@@ -1,6 +1,7 @@
 """
 Real-time-ish stock analysis dashboard for:
-Google, Amazon, Nvidia, Nebius, Sandisk, and Palantir.
+"Google, Amazon, Nvidia, Meta, Intel, Apple, Nebius, Sandisk, Palantir, S&P 500, and Gold. "
+
 
 Run:
   pip install streamlit yfinance pandas numpy plotly
@@ -28,10 +29,16 @@ STOCKS = {
     "Google": "GOOGL",
     "Amazon": "AMZN",
     "Nvidia": "NVDA",
+    "Meta": "META",
+    "Intel": "INTC",
+    "Apple": "AAPL",
     "Nebius": "NBIS",
     "Sandisk": "SNDK",
     "Palantir": "PLTR",
+    "S&P 500": "^GSPC",
+    "Gold": "GC=F",
 }
+
 
 TIMEFRAMES = {
     "1 Day": {"period": "1d", "interval": "1m", "days": 1},
