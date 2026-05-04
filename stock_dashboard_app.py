@@ -44,6 +44,7 @@ TIMEFRAMES = {
     "1 Day": {"period": "1d", "interval": "1m", "days": 1},
     "3 Days": {"period": "5d", "interval": "5m", "days": 3},
     "7 Days": {"period": "10d", "interval": "15m", "days": 7},
+    "14 Days": {"period": "20d", "interval": "30m", "days": 14},
 }
 
 
